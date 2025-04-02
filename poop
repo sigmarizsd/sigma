@@ -2,6 +2,29 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
 
 local Window = Library.CreateLib("MADE BY SKI_SHAWN", "Synapse")
 
+
+
+
+
+local Tab = Window:NewTab("FOR MOBILE PLAYERS")
+local Section = Tab:NewSection("THE THINGS U NEED")
+
+
+Section:NewButton("KEYBOARD SCRIPT", "KEYBOARD SCRIpt", function()
+    loadstring(game:HttpGet("https://gist.githubusercontent.com/RedZenXYZ/4d80bfd70ee27000660e4bfa7509c667/raw/da903c570249ab3c0c1a74f3467260972c3d87e6/KeyBoard%2520From%2520Ohio%2520Fr%2520Fr"))()
+end)
+
+Section:NewButton("F6 TO TOGGLE THE GUI OR U CAN CHANGE IT ","iduno", function()
+
+end)
+
+Section:NewButton("IN THE SETTINGS ","iduno", function()
+
+end)
+
+
+
+
 local Tab = Window:NewTab("FOR DAHOOD")
 local Section = Tab:NewSection("SCRIPTS")
 
